@@ -1,0 +1,86 @@
+.question{
+    -fx-text-fill: #38c768;
+    -fx-font-size: 40;
+}
+
+.timeBar{
+    -fx-accent: #21A0E8;
+    -fx-border-color: #38c768;
+    -fx-border-radius: 5;
+}
+
+.progress-bar .track {
+    -fx-background-color: #272727;
+}
+
+.option, .card{
+    -fx-stroke: white;
+    -fx-background-color: none;
+    -fx-fill: TRANSPARENT;
+    -fx-border-radius: 5;
+}
+
+.option:hover{
+    -fx-stroke: linear-gradient(#38c768, #21A0E8);
+}
+
+.questionTitle{
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+}
+
+.description{
+    -fx-font-family: "Roboto-Thin";
+    -fx-font-size: 15;
+    -fx-text-fill: "white";
+    -fx-wrap-text: true;
+}
+
+.score{
+    -fx-font-size: 35;
+    -fx-text-fill:  #38c768;
+    -fx-font-family: "Roboto-Light";
+}
+
+.hover-element{
+    -fx-cursor: hand;
+}
+
+.result-text{
+    -fx-fill: "white";
+    -fx-font-size: 25px;
+    -fx-font-family: "Roboto-Light";
+    visibility: hidden;
+}
+
+.joker-notification{
+    -fx-text-alignment: right;
+    -fx-font-size: 20;
+    -fx-fill: "white";
+}
+
+.list-cell{
+    -fx-background-color: #272727;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color:#272727;
+}
+
+.thumb{
+    -fx-background-color: black;
+}
+
+.textPrompt{
+    -fx-border-color: white;
+    -fx-border-radius: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 36;
+}
+
+.answerInput{
+    -fx-font-size: 25;
+    -fx-text-alignment: center;
+    -fx-text-fill: #38c768;
+}

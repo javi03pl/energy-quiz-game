@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name = "Checker">
+
+    <!--        max line of 120 char-->
+    <module name="LineLength">
+        <property name="max" value="120"/>
+    </module>
+
+    <module name="TreeWalker">
+
+        <module name="SuppressionCommentFilter"/>
+        <!--        unused imports-->
+        <module name="UnusedImports" />
+        <!--        Import with star-->
+        <module name="AvoidStarImport"/>
+        <!--        max 4 consecutive capital letters, final + overridden methods are ignored-->
+        <module name="AbbreviationAsWordInName"/>
+
+        <!--        call super constructor with no args-->
+        <module name="AvoidNoArgumentSuperConstructorCall"/>
+        <!--        no default case in switch()-->
+        <module name="MissingSwitchDefault"/>
+        <!--        Default comes last in switch()-->
+        <module name="DefaultComesLast"/>
+        <!--        no unnecessary parentheses-->
+        <module name="UnnecessaryParentheses"/>
+
+        <!--        max method length = 60-->
+        <module name="MethodLength">
+            <property name="tokens" value="METHOD_DEF"/>
+            <property name="max" value="60"/>
+        </module>
+
+        <!--        default pattern '^[a-z][a-zA-Z0-9]*$'-->
+        <module name="MethodName">
+            <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
+        </module>
+        <!--        default pattern '^[a-z][a-zA-Z0-9]*$'-->
+        <module name="LocalVariableName">
+            <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
+        </module>
+
+
+    </module>
+
+</module>

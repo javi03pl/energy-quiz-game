@@ -1,0 +1,10 @@
+.text{
+    -fx-font-family: "Roboto";
+    -fx-content-display: center;
+}
+
+.inputQuestion{
+    -fx-background-color: none;
+    -fx-font-size: 36px;
+    -fx-text-fill: white;
+}
